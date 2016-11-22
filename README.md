@@ -1,18 +1,10 @@
----
-layout: post
-title:  "grpc使用学习"
-date:   2016-11-21 11:21:23 +0800
-description: 
-categories: Home
----
 
-grpc使用学习
+# grpc使用学习
 
----
 
 官方的看起来有点复杂, 自己实践一下具体的操作流程.
 
-###服务端配置:
+### 服务端配置:
 
 1、安装`protoc`
 
