@@ -1,0 +1,6 @@
+framework module grpcService {
+  umbrella header "grpcService-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5BAAE668922D263D323CF680D84D36C7'
-               BlueprintName = 'grpcSwiftModel'
+               BlueprintIdentifier = '1B51D4111C58F046894B33DA05F3D128'
+               BlueprintName = 'grpcService'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'grpcSwiftModel.framework'>
+               BuildableName = 'grpcService.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -90,7 +90,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/gRPC-Core/grpc.framework"
   install_framework "$BUILT_PRODUCTS_DIR/gRPC-ProtoRPC/ProtoRPC.framework"
   install_framework "$BUILT_PRODUCTS_DIR/gRPC-RxLibrary/RxLibrary.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/grpcSwiftModel/grpcSwiftModel.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/grpcService/grpcService.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/BoringSSL/openssl.framework"
@@ -99,5 +99,5 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/gRPC-Core/grpc.framework"
   install_framework "$BUILT_PRODUCTS_DIR/gRPC-ProtoRPC/ProtoRPC.framework"
   install_framework "$BUILT_PRODUCTS_DIR/gRPC-RxLibrary/RxLibrary.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/grpcSwiftModel/grpcSwiftModel.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/grpcService/grpcService.framework"
 fi

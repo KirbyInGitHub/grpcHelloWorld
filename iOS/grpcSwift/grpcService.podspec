@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name     = "grpcSwiftModel"
+  s.name     = "grpcService"
   s.version  = "0.0.2"
   s.license  = "New BSD"
   s.authors  = { 'gRPC contributors' => 'grpc-io@googlegroups.com' }
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.9"
 
   # Base directory where the .proto files are.
-  src = "./grpcSwift"
+  src = "../../Server"
 
   # Run protoc with the Objective-C and gRPC plugins to generate protocol messages and gRPC clients.
   s.dependency "!ProtoCompiler-gRPCPlugin", "~> 1.0"

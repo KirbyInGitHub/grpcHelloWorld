@@ -6,6 +6,6 @@ inhibit_all_warnings!
 
 target 'grpcSwift' do
 
-    pod 'grpcSwiftModel', :path => '.'
+    pod 'grpcService', :path => '.'
 
 end

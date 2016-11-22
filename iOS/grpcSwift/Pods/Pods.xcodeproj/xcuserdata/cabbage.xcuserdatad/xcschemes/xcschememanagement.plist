@@ -44,59 +44,13 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>grpcSwiftModel.xcscheme</key>
+		<key>grpcService.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>0EAFB8BF463FD6AA221804C36ED24734</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4F2856A1169CE9F912D72907F503010E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5BAAE668922D263D323CF680D84D36C7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>953AB337DF8743A5416147AAD559790E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A767178AAD531C7FE9D7ABE37F3BFCC1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>B58ACB1D4155C5407D995E92E94F865E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C30ED1D655406AF8A4B457E1E22D9359</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E3CB3F2C5D8F5BCD77C2FDB00435BF7D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F67934BF21A2B43AC7D031E1373A9DFB</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

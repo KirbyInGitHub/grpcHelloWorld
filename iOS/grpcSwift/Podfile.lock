@@ -25,24 +25,24 @@ PODS:
     - gRPC-RxLibrary (= 1.0.0)
     - Protobuf (~> 3.0)
   - gRPC-RxLibrary (1.0.0)
-  - grpcSwiftModel (0.0.2):
+  - grpcService (0.0.2):
     - '!ProtoCompiler-gRPCPlugin (~> 1.0)'
-    - grpcSwiftModel/Messages (= 0.0.2)
-    - grpcSwiftModel/Services (= 0.0.2)
-  - grpcSwiftModel/Messages (0.0.2):
+    - grpcService/Messages (= 0.0.2)
+    - grpcService/Services (= 0.0.2)
+  - grpcService/Messages (0.0.2):
     - '!ProtoCompiler-gRPCPlugin (~> 1.0)'
     - Protobuf
-  - grpcSwiftModel/Services (0.0.2):
+  - grpcService/Services (0.0.2):
     - '!ProtoCompiler-gRPCPlugin (~> 1.0)'
     - gRPC-ProtoRPC
-    - grpcSwiftModel/Messages
+    - grpcService/Messages
   - Protobuf (3.1.0)
 
 DEPENDENCIES:
-  - grpcSwiftModel (from `.`)
+  - grpcService (from `.`)
 
 EXTERNAL SOURCES:
-  grpcSwiftModel:
+  grpcService:
     :path: .
 
 SPEC CHECKSUMS:
@@ -53,9 +53,9 @@ SPEC CHECKSUMS:
   gRPC-Core: 7ce9d18a7fb9fffc0f57646608d0741782b16996
   gRPC-ProtoRPC: 51745b5ebe4a844dc6e1ecf767d74ae3d124ea1e
   gRPC-RxLibrary: 3a8c5543115fb2183ed5624678e7ecbac5e9e4ad
-  grpcSwiftModel: 52f3570390650774306f9e24c4d31f322037c1db
+  grpcService: 9aa2ad9663374ac8f6531298b4c67dd6b6b5d2f1
   Protobuf: 265e9977d04a83eba9cefb0bed3ad07e41033b4a
 
-PODFILE CHECKSUM: 92db6033acee5b15b82b1409e18b9ebd42df5b1a
+PODFILE CHECKSUM: ebe6356a379af8b39f3a7cc8927abbd7ed20f6e1
 
 COCOAPODS: 1.1.0.beta.2
