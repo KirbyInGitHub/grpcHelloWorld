@@ -1,0 +1,6 @@
+framework module grpcSwiftModel {
+  umbrella header "grpcSwiftModel-umbrella.h"
+
+  export *
+  module * { export * }
+}

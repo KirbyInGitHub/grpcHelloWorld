@@ -1,0 +1,60 @@
+{
+  "name": "grpcSwiftModel",
+  "version": "0.0.2",
+  "license": "New BSD",
+  "authors": {
+    "gRPC contributors": "grpc-io@googlegroups.com"
+  },
+  "homepage": "http://www.grpc.io/",
+  "summary": "HelloWorld example",
+  "source": {
+    "git": "https://github.com/grpc/grpc.git"
+  },
+  "platforms": {
+    "ios": "8.0",
+    "osx": "10.9"
+  },
+  "dependencies": {
+    "!ProtoCompiler-gRPCPlugin": [
+      "~> 1.0"
+    ]
+  },
+  "prepare_command": "mkdir -p Pods/grpcSwiftModel\nPods/!ProtoCompiler/protoc         --plugin=protoc-gen-grpc=Pods/!ProtoCompiler-gRPCPlugin/grpc_objective_c_plugin         --objc_out=Pods/grpcSwiftModel         --grpc_out=Pods/grpcSwiftModel         -I ./grpcSwift         -I Pods/!ProtoCompiler         ./grpcSwift/helloworld.proto",
+  "pod_target_xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "subspecs": [
+    {
+      "name": "Messages",
+      "source_files": [
+        "Pods/grpcSwiftModel/*.pbobjc.{h,m}",
+        "Pods/grpcSwiftModel/**/*.pbobjc.{h,m}"
+      ],
+      "header_mappings_dir": "Pods/grpcSwiftModel",
+      "requires_arc": false,
+      "dependencies": {
+        "Protobuf": [
+
+        ]
+      }
+    },
+    {
+      "name": "Services",
+      "source_files": [
+        "Pods/grpcSwiftModel/*.pbrpc.{h,m}",
+        "Pods/grpcSwiftModel/**/*.pbrpc.{h,m}"
+      ],
+      "header_mappings_dir": "Pods/grpcSwiftModel",
+      "requires_arc": true,
+      "dependencies": {
+        "gRPC-ProtoRPC": [
+
+        ],
+        "grpcSwiftModel/Messages": [
+
+        ]
+      }
+    }
+  ]
+}
